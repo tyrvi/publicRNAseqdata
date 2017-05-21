@@ -1,0 +1,96 @@
+---
+title: "Replicated Figures"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Figure 1
+Analysis of 11 data sets with published precomputed FPKM/RPKM values for brain, heart and kidney samples from four different studies.
+
+![**Fig. 1B:** Heat map with Spearman correlations between samples](replicated-figures/fig1B-replicated.png)
+
+![**Fig. 1C:** PCA, PC1, PC2. Tissues types are red (heart), blue (brain), green (kidney) and studies are square (HPA), triangle (GTex), circle (AltIso), star (Atlas).](replicated-figures/fig1C-nolegend-replicated.png)
+
+![**Fig. 1D:** ANOVA dependence of laboratory factors layout, read length, preparation, number of raw reads and tissue](replicated-figures/fig1D-replicated.png)
+
+
+
+
+
+
+
+# Figure 2
+
+Analysis of log-transformed published precomputed FPKM/RPKM values for brain heart and kidney samples from four different studies.
+
+![**Fig. 2A:** Heat map with Spearman correlation between samples](replicated-figures/fig2A-replicated.png)
+
+
+![**Fig. 2B:** PCA, PC1, PC2. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig2B-nolegend-replicated.png)
+
+![**Fig. 2C:** PCA, PC2, PC3. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig2C-nolegend-replicated.png)
+
+
+![**Fig. 2D:** Cross-validation by PCA excluding AltIso data sets projected on top, PC2 and PC3. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with square (HPA), triangle (GTex), empty square (AltIso), star (Atlas)](replicated-figures/fig2D-nolegend-replicated.png)
+
+
+![**Fig. 2E:** ANOVA independence of the laboratory factors, layout, read length, preparation, number of raw reads and tissue](replicated-figures/fig2E-replicated.png)
+
+
+
+
+
+# Figure 3
+
+Analysis of precomputed FPKM/RPKM values for brain, heart and kidney samples from four different studies after removal of batch effects using ComBat.
+
+
+![**Fig. 3A:** Heat map with Spearman correlations between samples](replicated-figures/fig3A-replicated.png)
+
+
+![**Fig. 3B:** PCA, PC1, PC2. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig3B-nolegend-replicated.png)
+
+
+![**Fig. 3C:** ANOVA dependence of the laboratory factors layout, read length, preparation, number of raw reads and tissue.](replicated-figures/fig3C-replicated.png)
+
+
+
+
+
+# Figure 4
+
+Analysis of Cufflinks FPKM values after reprocessing from FASTQ files.
+
+
+![**Fig. 4A:** Heat map with Spearman correlations between samples](replicated-figures/fig4A-replicated.png)
+
+
+![**Fig. 4B:** PCA, PC1, PC2. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with double triangle (EoGE), square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig4B-nolegend-replicated.png)
+
+
+![**Fig. 4C:** ANOVA dependence of laboratory factors layout, read length, preparation, number of raw reads, study and tissue](replicated-figures/fig4C-replicated.png)
+
+
+![**Fig. 4D:** Heat map with Spearman correlations between samples after log transformation](replicated-figures/fig4D-replicated.png)
+
+
+![**Fig. 4E:** PCA with log-transformed data, PC1 and PC2. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with double triangle (EoGE), square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig4E-nolegend-replicated.png)
+
+
+![**Fig. 4F:** PCA with log-transformed data, PC2 and PC3. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with double triangle (EoGE), square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig4F-nolegend-replicated.png)
+
+
+![**Fig. 4H:** Heat map with Spearman correlations between samples after removal of batch effects using ComBat](replicated-figures/fig4H-replicated.png)
+
+
+![**Fig. 4I:** PCA after ComBat, PC1 and PC2. Tissue types indicated with red (heart), blue (brain), green (kidney) and studies with double triangle (EoGE), square (HPA), triangle (GTex), circle (AltIso), star (Atlas)](replicated-figures/fig4I-nolegend-replicated.png)
+
+
+![**Fig. 4J:** ANOVA dependence of laboratory factors layout, read length, preparation, number of raw reads, study and tissue, after ComBat](replicated-figures/fig4J-replicated.png)
+
+
+![**Fig. 4K:** ANOVA dependence of laboratory factors layout, read length, preparation, number of raw reads, quantification method, study and tissue, after joining precomputed and recomputed F/RPKM values together](replicated-figures/fig4K-replicated.png)
+
+
+![**Fig. 4L:** ANOVA dependence of the laboratory factors layout, read length, preparation, number of raw reads, quantification method, study and tissue, after joining precomputed and recomputed F/RPKM values and removal of batch effects using ComBat.](replicated-figures/fig4L-replicated.png)
